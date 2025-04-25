@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv" dir="ltr">
+<html lang="sv" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Att göra-lista </h1>
+        <h1>Att göra-task </h1>
         <form id="todoForm">
-            <input type="text" id="task" placeholder="Skriv en uppgift..." required>
+            <input type="text" id="task" placeholder="Skriv en uppgift" required>
             <select id="priority" required>
                 <option value="1">Prioritet 1</option>
                 <option value="2">Prioritet 2</option>
@@ -20,7 +20,7 @@
         </form>
         <div id="errorMessage" class="error"></div>
         <div id="todosContainer"></div>
-    </div>
+                                </div>
     <script type="module" src="/src/app.ts"></script>
 </body>
 </html>
